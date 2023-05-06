@@ -4,7 +4,6 @@ const usuario = {
   celular: prompt("Informe o seu número de celular: "),
   cidade: prompt("Informe o município que você reside: "),
 };
-
 if (confirm("Deseja alterar alguma informação?")) {
   console.log("Informações atuais: ", usuario);
   const opcoes = ["nome", "idade", "celular", "cidade"];
